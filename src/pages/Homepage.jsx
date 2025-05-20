@@ -5,6 +5,8 @@ import AboutUs2 from "../Component/AboutUs2";
 import Slides from "../Component/Slides";
 import AboutUs3 from "../Component/AboutUs3";
 import OurClients from "../Component/OurClients";
+import ContactUs from "../Component/ContactUs";
+import SocialLinks from "../Component/SocialLinks";
 
 const Homepage = () => {
   return (
@@ -39,6 +41,8 @@ const Homepage = () => {
       </div>
       <AboutUs3 />
       <OurClients />
+      <ContactUs />
+      <SocialLinks />
     </div>
   );
 };
