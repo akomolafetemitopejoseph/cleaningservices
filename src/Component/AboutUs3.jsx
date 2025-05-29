@@ -9,7 +9,7 @@ const AboutUs3 = () => {
           <h1 className="font-bold text-[3rem] capitalize">
             we offer high quality cleaning services
           </h1>
-          <p className="mt-5 text-[.90rem] text-gray-600">
+          <p className="mt-5 text-[1.2rem] text-gray-600">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent
             vestum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus
             porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et

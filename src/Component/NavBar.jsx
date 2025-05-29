@@ -57,8 +57,8 @@ const NavBar = () => {
             />
           )}
         </div>
-      </nav>
-      {/* <div>
+
+        {/* <div>
         <div
           className="reletive max-w-[1400px] h-[780px]"
           onMouseEnter={() => setPauseSlides(true)}
@@ -83,28 +83,29 @@ const NavBar = () => {
         </div>
       </div> */}
 
-      {menue && (
-        <div className="lg:hidden flex absolute top-0  right-0 bg-gray-50 w-fit p-4 h-full text-2xl">
-          <ul className="space-y-4 font-bold text-xl cursor-pointer uppercase">
-            <li className="p-2 rounded-xl hover:bg-amber-300  text-amber-900 hover:text-[#00a2ff]">
-              home
-            </li>
-            <li className="p-2 rounded-xl hover:bg-amber-300  text-amber-900 hover:text-[#00a2ff] mt-3">
-              about us
-            </li>
-            <li className="p-2 rounded-xl hover:bg-amber-300  text-amber-900 hover:text-[#00a2ff] mt-3">
-              customer care
-            </li>
-            <li className="p-2 rounded-xl hover:bg-amber-300  text-amber-900 hover:text-[#00a2ff] mt-3">
-              services
-            </li>
-            <li className="p-2 rounded-xl hover:bg-amber-300  text-amber-900 hover:text-[#00a2ff] mt-3">
-              contacts
-            </li>
-          </ul>
-          <div className="text-2xl z-10 "></div>
-        </div>
-      )}
+        {menue && (
+          <div className="lg:hidden flex absolute top-0  right-0 bg-gray-400 w-fit p-4 h-full text-2xl">
+            <ul className="space-y-4 font-bold text-xl cursor-pointer uppercase">
+              <li className="p-2 rounded-xl hover:bg-amber-300  text-amber-900 hover:text-[#00a2ff]">
+                home
+              </li>
+              <li className="p-2 rounded-xl hover:bg-amber-300  text-amber-900 hover:text-[#00a2ff] mt-3">
+                about us
+              </li>
+              <li className="p-2 rounded-xl hover:bg-amber-300  text-amber-900 hover:text-[#00a2ff] mt-3">
+                customer care
+              </li>
+              <li className="p-2 rounded-xl hover:bg-amber-300  text-amber-900 hover:text-[#00a2ff] mt-3">
+                services
+              </li>
+              <li className="p-2 rounded-xl hover:bg-amber-300  text-amber-900 hover:text-[#00a2ff] mt-3">
+                contacts
+              </li>
+            </ul>
+            <div className="text-2xl z-10 "></div>
+          </div>
+        )}
+      </nav>
     </>
   );
 };

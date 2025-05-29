@@ -4,7 +4,7 @@ import { BsChevronLeft } from "react-icons/bs";
 
 const Slides = () => {
   const [activeSliders, setActiveSliders] = useState(0);
-//   const [paused, setPaused] = useEffect(false);
+  //   const [paused, setPaused] = useEffect(false);
 
   const imgSliders = [
     {
@@ -24,7 +24,6 @@ const Slides = () => {
     },
   ];
 
-
   const curSlide = () => {
     setActiveSliders((activeSliders) =>
       activeSliders === 0 ? imgSliders.length - 1 : activeSliders - 1
@@ -37,14 +36,24 @@ const Slides = () => {
     );
   };
 
+  useEffect(() => {
+    const timeouts = [
+      setTimeout(() => setActiveSliders(1), 2000),
+      setTimeout(() => setActiveSliders(2), 3000),
+      setTimeout(() => setActiveSliders(3), 4000),
+    ];
+
+    return () => timeouts.forEach(clearTimeout);
+  }, [activeSliders]);
+
   return (
     <div className="reletive flex justify-center">
       {imgSliders.map((img, index) => (
         <div
           key={index}
           className={`${
-            index === activeSliders ? "block" : "hidden"
-          } w-[100%] h-screen bg-cover inset-0 transition-opacity duration-1000 ease-in-out`}
+            index === activeSliders ? "block" : "hidden transition-all"
+          } w-[100%] h-screen bg-cover inset-0 transition-opacity duration-1000 animate-fade-in`}
         >
           <img
             className="w-full h-full bg-cover bg-no-repeat"
@@ -54,21 +63,21 @@ const Slides = () => {
         </div>
       ))}
 
-      <div className=" absolute text-[3rem] font-extrabold text-gray cursor-pointer flex justify-center">
+      {/* <div className=" absolute text-[3rem] font-extrabold text-gray cursor-pointer flex justify-center">
         ...
-      </div>
+      </div> */}
 
       <div>
-        <div className="hover:text-gray-400 group-hover:black absolute top-[70%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-gray-300 cursor-pointer">
+        <div className="hover:text-gray-400 group-hover:black absolute top-[65%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-gray-300 cursor-pointer">
           <BsChevronRight onClick={curSlide} size={30} />
         </div>
 
-        <div className="hover:text-gray-400 absolute top-[70%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-gray-300 cursor-pointer">
+        <div className="hover:text-gray-400 absolute top-[65%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-gray-300 cursor-pointer">
           <BsChevronLeft onClick={prevSlides} size={30} />
         </div>
       </div>
 
-      <div className="absolute top-[49%] right-[40%]">
+      <div className="absolute top-[50%] center-[50%]">
         <div className="flex flex-col text-center">
           <h1 className="uppercase text-[3rem] font-extrabold text-black">
             cleaning co

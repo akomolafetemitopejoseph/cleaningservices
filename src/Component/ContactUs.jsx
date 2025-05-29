@@ -8,16 +8,16 @@ const ContactUs = () => {
   return (
     <div>
       <div className="bg-[url('./assets/anotherbg.jpg')] bg-cover bg-center">
-        <div className="flex justify-center text-center items-center place-items-center">
+        <div className="flex">
           <div className="m-5 p-10">
             <h1 className="text-[2.5rem] font-extrabold uppercase">
               contact us
             </h1>
-            <div className="text-[3rem] mt-7">
-              <div className="flex gap-5">
-                <FaEnvelope />
+            <div className="mt-7">
+              <div className="flex justify-center text-center gap-5">
+                <FaEnvelope size={50} />
                 <a
-                  className="text-[1rem] font-bold hover:text-gray-600"
+                  className="text-[1.5rem] font-bold hover:text-gray-600"
                   href="#"
                 >
                   akomolafetemitope6@gmail.com
@@ -25,13 +25,13 @@ const ContactUs = () => {
               </div>
 
               <div className="flex gap-5 mt-8">
-                <MdOutlinePhoneIphone />
-                <h1 className="text-[1rem] font-bold">+234-9164127577</h1>
+                <MdOutlinePhoneIphone size={50} />
+                <h1 className="text-[1.5rem] font-bold">+234-9164127577</h1>
               </div>
 
               <div className="flex gap-5 mt-8">
-                <MdLocationPin />
-                <h1 className="text-[1rem] font-bold">
+                <MdLocationPin size={50} />
+                <h1 className="text-[1.5rem] font-bold">
                   8901 Marmora Road Glasgow,
                   <br /> DO4 89GR
                 </h1>
@@ -61,7 +61,7 @@ const ContactUs = () => {
 
               <div>
                 <textarea
-                  className="border-2 w-[500px] p-2 mt-5 font-bold"
+                  className="border-2 w-full space-y-4 p-2 mt-5 font-bold"
                   name="message"
                   id="message"
                 >
