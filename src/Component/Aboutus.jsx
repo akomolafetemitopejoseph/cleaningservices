@@ -29,7 +29,7 @@ const Aboutus = ({ image, text, paragraph }) => {
   return (
     <>
       <div className="m-5 p-10">
-        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+        <div data-aos="fade-up" data-aos-duration="3000">
           <h1 className="font-bold text-2xl capitalize mt-5">
             Welcome to our company wedsite
           </h1>
@@ -46,7 +46,7 @@ const Aboutus = ({ image, text, paragraph }) => {
         <div
           data-aos="fade-down"
           data-aos-easing="linear"
-          data-aos-duration="1500"
+          data-aos-duration="3000"
           className="flex mt-10"
         >
           <div className="flex">
