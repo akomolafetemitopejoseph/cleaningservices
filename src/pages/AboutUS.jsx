@@ -90,17 +90,14 @@ const AboutUS = () => {
               Etiam cursus leo psum
             </p>
             <p className="flex items-center gap-5 mt-5 hover:text-gray-500 cursor-pointer">
-            
               <BsArrowRightCircle className="bg-yellow-300 rounded-[100%] text-white text-[1.5rem]" />
               Etiam cursus leo psum
             </p>
             <p className="flex items-center gap-5 mt-5 hover:text-gray-500 cursor-pointer">
-              
               <BsArrowRightCircle className="bg-yellow-300 rounded-[100%] text-white text-[1.5rem]" />
               Etiam cursus leo psum
             </p>
             <p className="flex items-center gap-5 mt-5 hover:text-gray-500 cursor-pointer">
-              
               <BsArrowRightCircle className="bg-yellow-300 rounded-[100%] text-white text-[1.5rem]" />
               Etiam cursus leo psum
             </p>

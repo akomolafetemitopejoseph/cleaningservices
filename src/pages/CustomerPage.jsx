@@ -6,8 +6,10 @@ import SocialLinks from "../Component/SocialLinks";
 const CustomerPage = () => {
   return (
     <div>
-      <NavBar />
-      <CustomerCare  />
+      {/* <NavBar /> */}
+      <div>
+        <CustomerCare />
+      </div>
       {/* <SocialLinks /> */}
     </div>
   );

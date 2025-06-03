@@ -11,7 +11,7 @@ import SocialLinks from "../Component/SocialLinks";
 const Homepage = () => {
   return (
     <div>
-      <NavBar />
+      {/* <NavBar /> */}
       <Slides />
       <Aboutus />
       <div data-aos="fade-up" data-aos-duration="3000" className="flex">
@@ -42,7 +42,7 @@ const Homepage = () => {
       <AboutUs3 />
       <OurClients />
       <ContactUs />
-      <SocialLinks />
+      {/* <SocialLinks /> */}
     </div>
   );
 };

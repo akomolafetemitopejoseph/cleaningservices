@@ -19,7 +19,7 @@ const CustomerCare = () => {
                 Epulvinar at lacus a, porta varius dui. Phasellus porttitor nisi
                 eget accum san dignissim. Pellentesque a arcu efficitur ante
               </h1>
-              <p className="text-[.90rem] text-gray-700 mb-5">
+              <p className="text-[1rem] text-gray-700 mb-5">
                 Pellentesque a arcu efficitur ante mattis dictum et ac purus.
                 Nunc inte rdum, orci eu tincidunt lacin ia, elit quam ultrices
                 ipsum, quis ultricies ipsum ante a lorem. Maecenas nunc mau ris,
@@ -84,7 +84,7 @@ const CustomerCare = () => {
         <h1 className="text-lg font-bold mb-5">
           Get high quality cleaning services at affordable prices
         </h1>
-        <p className="text-[.90rem] text-gray-700 mb-5">
+        <p className="text-[1.2rem] text-gray-700 mb-5">
           Pellentesque lobortis tempus tincidunt. Nullam finibus sem eu pulvinar
           ultri cies. Donec in velit et diam aliquet mollis. Nulla facilisi.
           Fusce viverra, velit at cursus maximus, eros magna pellentesque nisl,
@@ -93,40 +93,99 @@ const CustomerCare = () => {
           varius id nec massa. Vivamus nec justo sed nisl maximus efficitur.
           Nullam iaculis, metus eleifend malesuada bibendum, eros sapien pelle
         </p>
-        <div className="flex">
-          <div className="flex">
+
+        <div className="flex gap-10 justify-evenly">
+          <div>
             <img
-              className="w-70 h-60"
+              className="w-100 h-60"
               src="https://images.unsplash.com/photo-1642505172378-a6f5e5b15580?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGNsZWFuaW5nJTIwc2VydmljZXxlbnwwfHwwfHx8MA%3D%3D"
               alt="image"
             />
-            <p className="text-lg font-bold mt-5">
+            <p className="text-[1rem] text-gray-700 font-semibold mt-5">
               Bisi eget accum san dignissim. Pellentes que a arcu efficitur ante
             </p>
+          </div>
+          <div>
             <img
-              className="w-70 h-60"
-              src="https://images.unsplash.com/photo-1642505172378-a6f5e5b15580?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGNsZWFuaW5nJTIwc2VydmljZXxlbnwwfHwwfHx8MA%3D%3D"
+              className="w-100 h-60"
+              src="https://livedemo00.template-help.com/wt_53151/img/page3_pic2.jpg"
               alt="image"
             />
-            <p className="text-lg font-bold mt-5">
+            <p className="text-[1rem] text-gray-700 font-semibold mt-5">
               Bisi eget accum san dignissim. Pellentes que a arcu efficitur ante
             </p>
-            <img
-              className="w-70 h-60"
-              src="https://images.unsplash.com/photo-1642505172378-a6f5e5b15580?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGNsZWFuaW5nJTIwc2VydmljZXxlbnwwfHwwfHx8MA%3D%3D"
-              alt="image"
-            />
-            <p className="text-lg font-bold mt-5">
-              Bisi eget accum san dignissim. Pellentes que a arcu efficitur ante
-            </p>
-            <img
-              className="w-70 h-60"
-              src="https://images.unsplash.com/photo-1642505172378-a6f5e5b15580?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGNsZWFuaW5nJTIwc2VydmljZXxlbnwwfHwwfHx8MA%3D%3D"
-              alt="image"
-            />
-            <p className="text-lg font-bold mt-5">
-              Bisi eget accum san dignissim. Pellentes que a arcu efficitur ante
-            </p>
+          </div>
+        </div>
+        <div className="w-[100%] h-[2px] bg-gray-300 mt-15"></div>
+        <div className="mt-5">
+          <h1 className="text-2xl font-bold mb-5">Why Choose Us?</h1>
+          <div className="grid grid-cols-3 gap-10">
+            <div>
+              <h1 className="mb-5 text-xl font-bold">
+                <strong className="mr-5">1.</strong>
+                Aget accum san dignis sim ellentes que a arcu efficitur ante
+              </h1>
+              <p className="text-md text-gray-600">
+                Pellentesque a arcu efficitur ante mattis dictum et ac purus.
+                Nunc inte rdum, orci eu tincidunt lacin ia, elit quam ultrices
+                ipsum, quis ultricies ipsum ante a lorem. Maecenas
+              </p>
+            </div>
+            <div>
+              <h1 className="mb-5 text-xl font-bold">
+                <strong className="mr-5">2.</strong>
+                Nunc interdum, orci eu tincidunt la cinia, elit quam ultrices
+              </h1>
+              <p className="text-md text-gray-600">
+                Pellentesque a arcu efficitur ante mattis dictum et ac purus.
+                Nunc inte rdum, orci eu tincidunt lacin ia, elit quam ultrices
+                ipsum, quis ultricies ipsum ante a lorem. Maecenas
+              </p>
+            </div>
+            <div>
+              <h1 className="mb-5 text-xl font-bold">
+                <strong className="mr-5">3.</strong>
+                Helit quam ultrices ipsum, quis ultr icies ipsum ante a lorem
+              </h1>
+              <p className="text-md text-gray-600">
+                Pellentesque a arcu efficitur ante mattis dictum et ac purus.
+                Nunc inte rdum, orci eu tincidunt lacin ia, elit quam ultrices
+                ipsum, quis ultricies ipsum ante a lorem. Maecenas
+              </p>
+            </div>
+            <div>
+              <h1 className="mb-5 text-xl font-bold">
+                <strong className="mr-5">4.</strong>
+                Nunc interdum, orci eu tincidunt la cinia, elit quam ultrices
+              </h1>
+              <p className="text-md text-gray-600">
+                Pellentesque a arcu efficitur ante mattis dictum et ac purus.
+                Nunc inte rdum, orci eu tincidunt lacin ia, elit quam ultrices
+                ipsum, quis ultricies ipsum ante a lorem. Maecenas
+              </p>
+            </div>
+            <div>
+              <h1 className="mb-5 text-xl font-bold">
+                <strong className="mr-5">5.</strong>Fignis sim ellentes que
+                arcuficitur ante mattis dictum et
+              </h1>
+              <p className="text-md text-gray-600">
+                Pellentesque a arcu efficitur ante mattis dictum et ac purus.
+                Nunc inte rdum, orci eu tincidunt lacin ia, elit quam ultrices
+                ipsum, quis ultricies ipsum ante a lorem. Maecenas
+              </p>
+            </div>
+            <div>
+              <h1 className="mb-5 text-xl font-bold">
+                <strong className="mr-5">6.</strong>Maecenas nunc mauris,
+                finibus in gravida sed, blandit nec
+              </h1>
+              <p className="text-md text-gray-600">
+                Pellentesque a arcu efficitur ante mattis dictum et ac purus.
+                Nunc inte rdum, orci eu tincidunt lacin ia, elit quam ultrices
+                ipsum, quis ultricies ipsum ante a lorem. Maecenas
+              </p>
+            </div>
           </div>
         </div>
       </div>

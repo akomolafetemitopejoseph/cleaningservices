@@ -2,6 +2,7 @@ import svgMainLogo from "../assets/logo.svg";
 import { useEffect, useState } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { RxCross1 } from "react-icons/rx";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   const [menue, setMenue] = useState(false);
@@ -27,15 +28,21 @@ const NavBar = () => {
         </div>
 
         <ul className="lg:flex hidden gap-20 font-bold text-xl cursor-pointer uppercase">
-          <li className="p-2 rounded-xl hover:bg-amber-300  text-amber-900 hover:text-[#00a2ff]">
-            home
-          </li>
-          <li className="p-2 rounded-xl hover:bg-amber-300  text-amber-900 hover:text-[#00a2ff]">
-            about us
-          </li>
-          <li className="p-2 rounded-xl hover:bg-amber-300  text-amber-900 hover:text-[#00a2ff]">
-            customer care
-          </li>
+          <Link to="/homepage">
+            <li className="p-2 rounded-xl hover:bg-amber-300  text-amber-900 hover:text-[#00a2ff]">
+              home
+            </li>
+          </Link>
+          <Link to="/aboutus">
+            <li className="p-2 rounded-xl hover:bg-amber-300  text-amber-900 hover:text-[#00a2ff]">
+              about us
+            </li>
+          </Link>
+          <Link to="/customerpage">
+            <li className="p-2 rounded-xl hover:bg-amber-300  text-amber-900 hover:text-[#00a2ff]">
+              customer care
+            </li>
+          </Link>
           <li className="p-2 rounded-xl hover:bg-amber-300  text-amber-900 hover:text-[#00a2ff]">
             services
           </li>
