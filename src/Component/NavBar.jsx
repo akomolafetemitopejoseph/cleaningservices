@@ -43,9 +43,12 @@ const NavBar = () => {
               customer care
             </li>
           </Link>
-          <li className="p-2 rounded-xl hover:bg-amber-300  text-amber-900 hover:text-[#00a2ff]">
-            services
-          </li>
+          <Link to="/services">
+            <li className="p-2 rounded-xl hover:bg-amber-300  text-amber-900 hover:text-[#00a2ff]">
+              services
+            </li>
+          </Link>
+
           <li className="p-2 rounded-xl hover:bg-amber-300  text-amber-900 hover:text-[#00a2ff]">
             contacts
           </li>

@@ -5,6 +5,7 @@ import Homepage from "./pages/Homepage";
 import AboutUS from "./pages/AboutUS";
 import CustomerPage from "./pages/CustomerPage";
 import SocialLinks from "./Component/SocialLinks";
+import Services from "./pages/Services";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Route path="/homepage" element={<Homepage />} />
         <Route path="/aboutus" element={<AboutUS />} />
         <Route path="/customerpage" element={<CustomerPage />} />
+        <Route path="services" element={<Services />} />
       </Routes>
       <SocialLinks />
     </div>
