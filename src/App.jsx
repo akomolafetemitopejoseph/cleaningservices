@@ -6,6 +6,7 @@ import AboutUS from "./pages/AboutUS";
 import CustomerPage from "./pages/CustomerPage";
 import SocialLinks from "./Component/SocialLinks";
 import Services from "./pages/Services";
+import Contacts from "./pages/Contacts";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Route path="/aboutus" element={<AboutUS />} />
         <Route path="/customerpage" element={<CustomerPage />} />
         <Route path="services" element={<Services />} />
+        <Route path="Contacts" element={<Contacts />} />
       </Routes>
       <SocialLinks />
     </div>

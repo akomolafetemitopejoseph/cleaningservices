@@ -40,11 +40,11 @@ const ContactUs = () => {
           </div>
 
           <form action="">
-            <div className="m-5 p-10">
+            <div className="m-5 p-10 bg-gray-800 opacity-70">
               <div className="">
                 <label htmlFor="for-label"></label>
                 <input
-                  className="border-2 w-[500px] p-3 "
+                  className="border-2 w-[500px] p-3 font-extrabold text-white"
                   type="text"
                   placeholder="Name"
                 />
@@ -53,7 +53,7 @@ const ContactUs = () => {
               <div>
                 <label htmlFor="for-email"></label>
                 <input
-                  className="border-2 w-[500px] p-3 mt-5"
+                  className="border-2 w-[500px] p-3 mt-5 font-extrabold text-white"
                   type="email"
                   placeholder="Email"
                 />
@@ -61,7 +61,7 @@ const ContactUs = () => {
 
               <div>
                 <textarea
-                  className="border-2 w-full space-y-4 p-2 mt-5 font-bold"
+                  className="border-2 w-full space-y-4 p-2 mt-5 font-extrabold text-white"
                   name="message"
                   id="message"
                 >

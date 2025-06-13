@@ -89,7 +89,7 @@ const Slides = () => {
             100% guarantee on our work
           </p>
 
-          <button className="p-4 mt-4 bg-amber-50 text-7 font-extrabold uppercase rounded-xl hover:bg-amber-100 hover:text-gray-800 cursor-pointer active:text-gray-600">
+          <button className="p-4 mt-4 bg-amber-50 text-7 font-extrabold uppercase rounded-xl hover:bg-amber-100 hover:text-gray-800 cursor-pointer active:text-gray-600 opacity-60">
             get in touch!
           </button>
         </div>

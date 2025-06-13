@@ -48,10 +48,11 @@ const NavBar = () => {
               services
             </li>
           </Link>
-
-          <li className="p-2 rounded-xl hover:bg-amber-300  text-amber-900 hover:text-[#00a2ff]">
-            contacts
-          </li>
+          <Link to="/contacts">
+            <li className="p-2 rounded-xl hover:bg-amber-300  text-amber-900 hover:text-[#00a2ff]">
+              contacts
+            </li>
+          </Link>
         </ul>
 
         <div className="lg:hidden text-2xl z-10">

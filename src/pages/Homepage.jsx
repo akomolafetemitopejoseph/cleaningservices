@@ -7,6 +7,7 @@ import AboutUs3 from "../Component/AboutUs3";
 import OurClients from "../Component/OurClients";
 import ContactUs from "../Component/ContactUs";
 import SocialLinks from "../Component/SocialLinks";
+import GoogleMap from "../Component/GoogleMap";
 
 const Homepage = () => {
   return (
@@ -42,7 +43,7 @@ const Homepage = () => {
       <AboutUs3 />
       <OurClients />
       <ContactUs />
-      {/* <SocialLinks /> */}
+      <GoogleMap />
     </div>
   );
 };
