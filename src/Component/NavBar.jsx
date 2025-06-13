@@ -97,21 +97,31 @@ const NavBar = () => {
         {menue && (
           <div className="lg:hidden flex absolute top-0  right-0 bg-gray-400 w-fit p-4 h-full text-2xl">
             <ul className="space-y-4 font-bold text-xl cursor-pointer uppercase">
-              <li className="p-2 rounded-xl hover:bg-amber-300  text-amber-900 hover:text-[#00a2ff]">
-                home
-              </li>
-              <li className="p-2 rounded-xl hover:bg-amber-300  text-amber-900 hover:text-[#00a2ff] mt-3">
-                about us
-              </li>
-              <li className="p-2 rounded-xl hover:bg-amber-300  text-amber-900 hover:text-[#00a2ff] mt-3">
-                customer care
-              </li>
-              <li className="p-2 rounded-xl hover:bg-amber-300  text-amber-900 hover:text-[#00a2ff] mt-3">
-                services
-              </li>
-              <li className="p-2 rounded-xl hover:bg-amber-300  text-amber-900 hover:text-[#00a2ff] mt-3">
-                contacts
-              </li>
+              <Link to="/homepage">
+                <li className="p-2 rounded-xl hover:bg-amber-300  text-amber-900 hover:text-[#00a2ff]">
+                  home
+                </li>
+              </Link>
+              <Link to="/aboutus">
+                <li className="p-2 rounded-xl hover:bg-amber-300  text-amber-900 hover:text-[#00a2ff] mt-3">
+                  about us
+                </li>
+              </Link>
+              <Link to="/customerpage">
+                <li className="p-2 rounded-xl hover:bg-amber-300  text-amber-900 hover:text-[#00a2ff] mt-3">
+                  customer care
+                </li>
+              </Link>
+              <Link to="/services">
+                <li className="p-2 rounded-xl hover:bg-amber-300  text-amber-900 hover:text-[#00a2ff] mt-3">
+                  services
+                </li>
+              </Link>
+              <Link to="/contacts">
+                <li className="p-2 rounded-xl hover:bg-amber-300  text-amber-900 hover:text-[#00a2ff] mt-3">
+                  contacts
+                </li>
+              </Link>
             </ul>
             <div className="text-2xl z-10 "></div>
           </div>

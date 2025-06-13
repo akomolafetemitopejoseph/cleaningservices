@@ -8,8 +8,8 @@ const ContactUs = () => {
   return (
     <div>
       <div className="bg-[url('./assets/anotherbg.jpg')] bg-cover bg-center">
-        <div className="flex">
-          <div className="m-5 p-10">
+        <div className="flex max-md:grid">
+          <div className="m-5 max-md:m-2 p-10 max-md:p-5">
             <h1 className="text-[2.5rem] font-extrabold uppercase">
               contact us
             </h1>

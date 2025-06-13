@@ -9,9 +9,9 @@ const AboutUs2 = ({ image, text, paragraph }) => {
   return (
     <div>
       <div>
-        <div className="m-5 p-10">
-          <img className="w-[200px] h-[200px]" src={image} alt="images" />
-          <h1 className="mt-5 text-[1.2rem] font-extrabold">{text}</h1>
+        <div className="m-5 max-md:m-2 p-10 max-md:p-5">
+          <img className="w-[200px] max-md:w-[150px] h-[200px] max-md:[130px]" src={image} alt="images" />
+          <h1 className="mt-5 text-[1.2rem] max-md:text-[]17px font-extrabold">{text}</h1>
           <p className="mt-5 text-[1rem] text-gray-600">{paragraph}</p>
         </div>
       </div>

@@ -28,12 +28,16 @@ const Aboutus = ({ image, text, paragraph }) => {
   }, []);
   return (
     <>
-      <div className="m-5 p-10">
-        <div data-aos="fade-up" data-aos-duration="3000">
+      <div className="m-5 max-md:m-2 p-10 max-md:p-5">
+        <div
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        >
           <h1 className="font-bold text-2xl capitalize mt-5">
             Welcome to our company wedsite
           </h1>
-          <p className="mt-5 text-xl text-star">
+          <p className="max-md:text-sm mt-5 text-xl">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent
             vestum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus
             porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et
@@ -44,23 +48,24 @@ const Aboutus = ({ image, text, paragraph }) => {
         </div>
 
         <div
-          data-aos="fade-down"
-          data-aos-easing="linear"
-          data-aos-duration="3000"
-          className="flex mt-10"
+          data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-back"
+          data-aos-delay="300"
+          data-aos-offset="0"
+          className="flex max-md:grid max-md:gap-10  mt-10"
         >
-          <div className="flex">
+          <div className="flex gap-7">
             <img
-              className="w-[200px] h-[150px] border-2 ]"
+              className="w-[200px] max-md:w-[150px] h-[150px] max-md:h-[140px] "
               src={Images}
               alt="pic"
             />
 
-            <div className="pl-4 pt-5">
-              <h2 className="font-bold text-[1.5rem]">
+            <div className="pl-4 pt-5 max-md:p-0">
+              <h2 className="font-bold text-[1.5rem] max-md:text-[17px]">
                 Praesent vestum molestie
               </h2>
-              <p className="text-[1rem] text-gray-600 text-strat">
+              <p className="text-[1rem] max-md:text-sm text-gray-600 text-strat">
                 Lorem ipsum dolor sit auer adipiscing elit. Praesent vestibulum
                 me lacus. Aenean nonummy hendrerit mauris. Phases porta. Fusce
                 suscipit varius mi sociis natoque.
@@ -68,17 +73,13 @@ const Aboutus = ({ image, text, paragraph }) => {
             </div>
           </div>
 
-          <div className="flex gap-3">
-            <img
-              className="w-[200px] h-[150px] border-2"
-              src={Images2}
-              alt="pic"
-            />
-            <div className="pl-4 pt-5">
-              <h2 className="font-bold text-[1.5rem]">
+          <div className="flex gap-7">
+            <img className="w-[200px] h-[150px]" src={Images2} alt="pic" />
+            <div className="pl-4 pt-5  max-md:p-0">
+              <h2 className="font-bold text-[1.5rem] max-md:text-[17px]">
                 Praesent vestum molestie
               </h2>
-              <p className="text-[1rem] text-gray-600 text-start">
+              <p className="text-[1rem] max-md:text-sm text-gray-600 text-start">
                 Lorem ipsum dolor sit auer adipiscing elit. Praesent vestibulum
                 me lacus. Aenean nonummy hendrerit mauris. Phases porta. Fusce
                 suscipit varius mi sociis natoque.

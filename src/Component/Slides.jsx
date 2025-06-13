@@ -68,28 +68,31 @@ const Slides = () => {
       </div> */}
 
       <div>
-        <div className="hover:text-gray-400 group-hover:black absolute top-[65%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-gray-300 cursor-pointer">
+        <div
+          className="hover:text-gray-400 group-hover:black absolute top-[65%] -translate-x-0 translate-y-[-50%] left-5 text-2xl max-md:text-sm rounded-full p-2 max-md:p-0
+         bg-black/20 text-gray-300 cursor-pointer max-md:cursor-auto"
+        >
           <BsChevronRight onClick={curSlide} size={30} />
         </div>
 
-        <div className="hover:text-gray-400 absolute top-[65%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-gray-300 cursor-pointer">
+        <div className="hover:text-gray-400 absolute top-[65%] -translate-x-0 translate-y-[-50%] right-5 text-2xl  max-md:text-sm rounded-full p-2 max-md:p-0 bg-black/20 text-gray-300 cursor-pointer max-md:cursor-auto">
           <BsChevronLeft onClick={prevSlides} size={30} />
         </div>
       </div>
 
       <div className="absolute top-[50%] center-[50%]">
         <div className="flex flex-col text-center">
-          <h1 className="uppercase text-[3rem] font-extrabold text-black">
+          <h1 className="max-md:text-2xl max-md:mb-5 uppercase text-[3rem] font-extrabold text-black">
             cleaning co
           </h1>
-          <p className="text-[1.5rem] font-bold text-black">
+          <p className="max-md:text-xl max-md:mb-5 text-[1.5rem] font-bold text-black">
             We'll fit all your cleaning needs.
           </p>
-          <p className="text-[1.5rem] font-bold text-black">
+          <p className="max-md:text-xl max-md:mb-5 text-[1.5rem] font-bold text-black">
             100% guarantee on our work
           </p>
 
-          <button className="p-4 mt-4 bg-amber-50 text-7 font-extrabold uppercase rounded-xl hover:bg-amber-100 hover:text-gray-800 cursor-pointer active:text-gray-600 opacity-60">
+          <button className="max-md:p-2 max-md:text-sm p-4 mt-4 bg-amber-50 text-7 font-extrabold uppercase rounded-xl hover:bg-amber-100 hover:text-gray-800 cursor-pointer max-md:cursor-auto active:text-gray-600 opacity-60">
             get in touch!
           </button>
         </div>

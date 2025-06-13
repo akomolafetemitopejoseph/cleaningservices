@@ -7,11 +7,13 @@ import CustomerPage from "./pages/CustomerPage";
 import SocialLinks from "./Component/SocialLinks";
 import Services from "./pages/Services";
 import Contacts from "./pages/Contacts";
+import Slides from "./Component/Slides";
 
 const App = () => {
   return (
     <div>
       <NavBar />
+      <Slides />
       <Routes>
         <Route path="/homepage" element={<Homepage />} />
         <Route path="/aboutus" element={<AboutUS />} />

@@ -13,9 +13,15 @@ const Homepage = () => {
   return (
     <div>
       {/* <NavBar /> */}
-      <Slides />
+      {/* <Slides /> */}
       <Aboutus />
-      <div data-aos="fade-up" data-aos-duration="3000" className="flex">
+      <div
+        data-aos="fade-left"
+        data-aos-anchor="#example-anchor"
+        data-aos-offset="500"
+        data-aos-duration="500"
+        className="flex max-md:grid"
+      >
         <AboutUs2
           image="https://images.unsplash.com/photo-1642505172378-a6f5e5b15580?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGNsZWFuaW5nfGVufDB8fDB8fHww"
           text="Praesent vestum mole"
