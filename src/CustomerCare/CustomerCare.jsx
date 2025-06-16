@@ -6,15 +6,15 @@ const CustomerCare = () => {
   return (
     <>
       <div>
-        <div className="m-15">
-          <h1 className="text-5xl font-extrabold uppercase mb-5">
+        <div className="m-15 max-md:m-5">
+          <h1 className="text-5xl max-md:text-2xl font-extrabold uppercase mb-5 max-md:mt-10">
             customer care
           </h1>
-          <div className="flex gap-10">
+          <div className="flex gap-10 max-md:grid max-md:gap-5">
             <div>
-              <img className="w-[600px] h-[350px]" src={image} alt="pic" />
+              <img className="w-[600px] h-[350px] max-md:h-[250px]" src={image} alt="pic" />
             </div>
-            <div className="w-[70%]">
+            <div className="w-[70%] max-md:w-[100%]">
               <h1 className="text-lg font-bold mb-5">
                 Epulvinar at lacus a, porta varius dui. Phasellus porttitor nisi
                 eget accum san dignissim. Pellentesque a arcu efficitur ante

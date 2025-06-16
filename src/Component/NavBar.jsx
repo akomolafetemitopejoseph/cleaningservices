@@ -17,11 +17,11 @@ const NavBar = () => {
 
   return (
     <>
-      <nav className="flex items-center justify-between p-5 bg-yellow-50">
+      <nav className="flex items-center justify-between p-5 max-md:p-2 bg-yellow-50 border-2">
         <div className="flex">
-          <h1 className="font-extrabold text-2xl">LOGO </h1>
+          {/* <h1 className="font-extrabold text-2xl">LOGO </h1> */}
           <img
-            className="w-[50px] h-[30px] object-contain"
+            className="w-[50px] max-md:w-[30px] h-[30px] object-contain"
             src={svgMainLogo}
             alt="logo"
           />
@@ -95,30 +95,30 @@ const NavBar = () => {
       </div> */}
 
         {menue && (
-          <div className="lg:hidden flex absolute top-0  right-0 bg-gray-400 w-fit p-4 h-full text-2xl">
+          <div className="lg:hidden flex absolute top-0  right-0 bg-gray-700 opacity-90 w-fit p-4 h-full text-2xl">
             <ul className="space-y-4 font-bold text-xl cursor-pointer uppercase">
               <Link to="/homepage">
-                <li className="p-2 rounded-xl hover:bg-amber-300  text-amber-900 hover:text-[#00a2ff]">
+                <li className="p-2 rounded-xl hover:bg-amber-300  text-white font-extrabold hover:text-[#00a2ff]">
                   home
                 </li>
               </Link>
               <Link to="/aboutus">
-                <li className="p-2 rounded-xl hover:bg-amber-300  text-amber-900 hover:text-[#00a2ff] mt-3">
+                <li className="p-2 rounded-xl hover:bg-amber-300  text-white mt-3">
                   about us
                 </li>
               </Link>
               <Link to="/customerpage">
-                <li className="p-2 rounded-xl hover:bg-amber-300  text-amber-900 hover:text-[#00a2ff] mt-3">
+                <li className="p-2 rounded-xl hover:bg-amber-300  text-white mt-3">
                   customer care
                 </li>
               </Link>
               <Link to="/services">
-                <li className="p-2 rounded-xl hover:bg-amber-300  text-amber-900 hover:text-[#00a2ff] mt-3">
+                <li className="p-2 rounded-xl hover:bg-amber-300 text-white  mt-3">
                   services
                 </li>
               </Link>
               <Link to="/contacts">
-                <li className="p-2 rounded-xl hover:bg-amber-300  text-amber-900 hover:text-[#00a2ff] mt-3">
+                <li className="p-2 rounded-xl hover:bg-amber-300  text-white mt-3">
                   contacts
                 </li>
               </Link>
