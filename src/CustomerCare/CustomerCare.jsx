@@ -29,7 +29,7 @@ const CustomerCare = () => {
                 viverra, velit at cursus maximus, eros magna pellentesque nisl,
                 quis accumsan ligula felis vel velit.
               </p>
-              <div className="flex gap-10 text-[1.3rem] text-gray-600">
+              <div className="flex max-md:grid gap-10 text-[1.3rem] text-gray-600 max-md:mb-5">
                 <div>
                   <h1 className="flex items-center gap-3">
                     <BsArrowRightCircle className="bg-yellow-300 rounded-[100%] text-white text-[1.5rem]" />{" "}
@@ -80,11 +80,11 @@ const CustomerCare = () => {
         </div>
       </div>
       <div className="w-[100%] h-[2px] bg-gray-300"></div>
-      <div className="m-15">
-        <h1 className="text-lg font-bold mb-5">
+      <div className="m-15  max-md:m-5 max-md:mb-5">
+        <h1 className="text-lg max-md:text-2xl font-bold mb-5">
           Get high quality cleaning services at affordable prices
         </h1>
-        <p className="text-[1.2rem] text-gray-700 mb-5">
+        <p className="text-[1.2rem] max-md:text-[18px] text-gray-700 mb-5">
           Pellentesque lobortis tempus tincidunt. Nullam finibus sem eu pulvinar
           ultri cies. Donec in velit et diam aliquet mollis. Nulla facilisi.
           Fusce viverra, velit at cursus maximus, eros magna pellentesque nisl,
@@ -94,14 +94,14 @@ const CustomerCare = () => {
           Nullam iaculis, metus eleifend malesuada bibendum, eros sapien pelle
         </p>
 
-        <div className="flex gap-10 justify-evenly">
+        <div className="flex max-md:grid gap-10 justify-evenly">
           <div>
             <img
               className="w-100 h-60"
               src="https://images.unsplash.com/photo-1642505172378-a6f5e5b15580?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGNsZWFuaW5nJTIwc2VydmljZXxlbnwwfHwwfHx8MA%3D%3D"
               alt="image"
             />
-            <p className="text-[1rem] text-gray-700 font-semibold mt-5">
+            <p className="text-[1rem] text-gray-700 font-bold mt-5">
               Bisi eget accum san dignissim. Pellentes que a arcu efficitur ante
             </p>
           </div>
@@ -111,15 +111,15 @@ const CustomerCare = () => {
               src="https://livedemo00.template-help.com/wt_53151/img/page3_pic2.jpg"
               alt="image"
             />
-            <p className="text-[1rem] text-gray-700 font-semibold mt-5">
+            <p className="text-[1rem] text-gray-700 font-bold mt-5">
               Bisi eget accum san dignissim. Pellentes que a arcu efficitur ante
             </p>
           </div>
         </div>
         <div className="w-[100%] h-[2px] bg-gray-300 mt-15"></div>
-        <div className="mt-5">
+        <div className="mt-5 max-md:mt-10">
           <h1 className="text-2xl font-bold mb-5">Why Choose Us?</h1>
-          <div className="grid grid-cols-3 gap-10">
+          <div className="grid grid-cols-3  gap-10 max-md:grid-cols-1">
             <div>
               <h1 className="mb-5 text-xl font-bold">
                 <strong className="mr-5">1.</strong>

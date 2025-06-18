@@ -98,27 +98,27 @@ const NavBar = () => {
           <div className="lg:hidden flex absolute top-0  right-0 bg-gray-700 opacity-90 w-fit p-4 h-full text-2xl">
             <ul className="space-y-4 font-bold text-xl cursor-pointer uppercase">
               <Link to="/homepage">
-                <li className="p-2 rounded-xl hover:bg-amber-300  text-white font-extrabold hover:text-[#00a2ff]">
+                <li className="p-2 rounded-xl  text-white font-extrabold">
                   home
                 </li>
               </Link>
               <Link to="/aboutus">
-                <li className="p-2 rounded-xl hover:bg-amber-300  text-white mt-3">
+                <li className="p-2 rounded-xl  text-white mt-3">
                   about us
                 </li>
               </Link>
               <Link to="/customerpage">
-                <li className="p-2 rounded-xl hover:bg-amber-300  text-white mt-3">
+                <li className="p-2 rounded-xl text-white mt-3">
                   customer care
                 </li>
               </Link>
               <Link to="/services">
-                <li className="p-2 rounded-xl hover:bg-amber-300 text-white  mt-3">
+                <li className="p-2 rounded-xl text-white  mt-3">
                   services
                 </li>
               </Link>
               <Link to="/contacts">
-                <li className="p-2 rounded-xl hover:bg-amber-300  text-white mt-3">
+                <li className="p-2 rounded-xl text-white mt-3">
                   contacts
                 </li>
               </Link>

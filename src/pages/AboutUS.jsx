@@ -7,22 +7,22 @@ const AboutUS = () => {
     <>
       <div className="flex gap-10 m-15 max-md:m-5 max-md:grid max-md:gap-2">
         <div>
-          <h1
-            className="text-[2.5rem] max-md:text-xl font-extrabold uppercase mb-2  data-aos="
-            fade-left
-            data-aos-anchor="#example-anchor"
-            data-aos-offset="500"
-            data-aos-duration="500"
-          >
+          <h1 className="text-[2.5rem] max-md:text-xl font-extrabold uppercase mb-2  ">
             about us
           </h1>
-          <div className="w-[500px] max-md:w-[390px] h-[400px] max-md:h-[200px] max-md:mb-10">
+          <div className="w-[500px] max-md:w-fit h-[400px] max-md:h-[200px] max-md:mb-10">
             <img src={myimage} alt="image" />
           </div>
           <h1 className="text-[1.5rem] max-md:text-xl font-bold capitalize mb-2.5 max-md:mb-5">
             Fusce quis ex et tellus sodales maximus ac bibendum mi. Aenean
           </h1>
-          <p className="text-[1.3rem] max-md:text-[18px] text-gray-600 mb-2.5">
+          <p
+            className="text-[1.3rem] max-md:text-[18px] text-gray-600 mb-2.5 data-aos="
+            fade-left
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="500"
+          >
             Fusce quis ex et tellus sodales maximus ac bibendum mi. Aenean
             hendrerit diam quis metus viverra, at pulvin ar enim porta. In dui
             tortor, pulvinar at lacus a, porta va rius dui. Phasellus porttitor

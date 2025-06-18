@@ -7,10 +7,10 @@ import image5 from "../assets/anotherbg.jpg";
 const ContactUs = () => {
   return (
     <div>
-      <div className="bg-[url('./assets/anotherbg.jpg')] bg-cover bg-center border-8 border-b-blue-950">
+      <div className="bg-[url('./assets/anotherbg.jpg')] bg-cover bg-center">
         <div className="flex max-md:grid">
           <div className="m-5 max-md:m-2 p-10 max-md:p-5">
-            <h1 className="text-[2.5rem] max-md:text-2xl text-white max-md:mt-10 max-md:mb-20 font-extrabold uppercase">
+            <h1 className="text-[2.5rem] max-md:text-2xl text-black max-md:mt-10 max-md:mb-20 font-extrabold uppercase">
               contact us
             </h1>
             <div className="mt-7">
@@ -31,7 +31,7 @@ const ContactUs = () => {
                 </h1>
               </div>
 
-              <div className="flex gap-5 mt- max-md:items-center">
+              <div className="flex gap-5 mt-8 max-md:items-center">
                 <MdLocationPin size={50} />
                 <h1 className="text-[1.5rem] font-bold max-md:text-sm max-md:cursor-auto">
                   8901 Marmora Road Glasgow,
@@ -55,7 +55,7 @@ const ContactUs = () => {
               <div>
                 <label htmlFor="for-email"></label>
                 <input
-                  className="border-2 w-[500px] max-md:w-[260px] p-3 mt-5 font-extrabold text-black"
+                  className="border-2 w-[500px] max-md:w-[100%] p-3 mt-5 font-extrabold text-black"
                   type="email"
                   placeholder="Email"
                 />

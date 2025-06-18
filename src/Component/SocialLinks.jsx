@@ -7,7 +7,7 @@ import { FaXTwitter } from "react-icons/fa6";
 const SocialLinks = () => {
   return (
     <div>
-      <div className="bg-gray-800 ">
+      <div className="bg-gray-800">
         <div className="flex justify-center gap-20 max-md:gap-2">
           <a
             className="mt-10 mb-10 p-10 max-md:p-2 hover:text-white text-black max-md:cursor-auto"
