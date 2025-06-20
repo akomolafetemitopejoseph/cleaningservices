@@ -14,63 +14,72 @@ const AboutUS = () => {
             <img src={myimage} alt="image" />
           </div>
           <h1 className="text-[1.5rem] max-md:text-xl font-bold capitalize mb-2.5 max-md:mb-5">
-            Fusce quis ex et tellus sodales maximus ac bibendum mi. Aenean
+            About Cleaning CO
           </h1>
           <p
-            className="text-[1.3rem] max-md:text-[18px] text-gray-600 mb-2.5 data-aos="
+            className="text-[18px] max-md:text-[18px] text-gray-600 mb-2.5 data-aos="
             fade-left
             data-aos-anchor="#example-anchor"
             data-aos-offset="500"
             data-aos-duration="500"
           >
-            Fusce quis ex et tellus sodales maximus ac bibendum mi. Aenean
-            hendrerit diam quis metus viverra, at pulvin ar enim porta. In dui
-            tortor, pulvinar at lacus a, porta va rius dui. Phasellus porttitor
-            nisi eget accumsan
+            Cleaning CO is a trusted and professional cleaning service company
+            committed to delivering exceptional cleanliness, comfort, and
+            customer care. We specialize in both residential and commercial
+            cleaning, offering flexible plans that fit your schedule and your
+            budget.
           </p>
 
-          <p className="text-[1.3rem] max-md:text-[18px] text-gray-600 mb-2.5">
-            Fusce quis ex et tellus sodales maximus ac bibendum mi. Aenean
-            hendrerit diam quis metus viverra, at pulvin ar enim porta. In dui
-            tortor, pulvinar at lacus a, porta va rius dui. Phasellus porttitor
-            nisi eget accumsanFusce quis ex et tellus sodales maximus ac
-            bibendum mi. Aenean hendrerit diam quis metus viverra, at pulvin ar
-            enim porta. In dui tortor, pulvinar at lacus a, porta va rius dui.
-            Phasellus porttitor nisi eget accumsan
+          <p className="text-[18px] max-md:text-[18px] text-gray-600 mb-2.5">
+            At Cleaning CO, we understand that a clean space is essential for
+            healthy living and productive working. That’s why we combine modern
+            cleaning techniques, eco-friendly products, and a passionate team of
+            professionals to give every space the sparkling attention it
+            deserves
+          </p>
+          <p className="text-[18px] max-md:text-[18px] text-gray-600 mb-2.5">
+            Our services include daily and deep cleaning, office cleaning,
+            post-construction cleanup, move-in/move-out cleaning, and more. We
+            work with honesty, punctuality, and the highest level of
+            care—because your environment matters to us.
+          </p>
+          <p className="text-[18px] max-md:text-[18px] text-gray-600 mb-2.5">
+            Whether you're looking for a one-time service or a long-term
+            cleaning partner, Cleaning CO is here to make your space shine.
           </p>
         </div>
 
         <div>
-          <h1 className="text-[2rem] max-md:text-xl font-extrabold uppercase mb-2.5 max-md:mt-10">
+          <h1 className="text-[18px] max-md:text-xl font-extrabold uppercase mb-2.5 max-md:mt-10">
             our history
           </h1>
-          <p className="text-[1.3rem] max-md:text-[18px] text-gray-600 mb-2.5">
+          <p className="text-[18px] max-md:text-[18px] text-gray-600 mb-2.5">
             <span className="text-[1.2rem] font-black text-black">1999-</span>
             Aenean hendrerit diam quis metus viverra, at pulvin ar enim porta.
             In dui tortor, pulvinar at lacus a, porta va rius dui. Phasellus
             porttitor nisi eget accumsan
           </p>
-          <p className="text-[1.3rem] max-md:text-[18px] text-gray-600 mb-2.5">
+          <p className="text-[18px] max-md:text-[18px] text-gray-600 mb-2.5">
             <span className="text-[1.2rem] font-black text-black">2004- </span>
             In dui tortor, pulvinar at lacus a, porta va rius dui. Phasellus
             porttitor nisi eget accumsane llentesque a arcu efficitur ante
             mattis dictum et ac purus. Nunc interdum, orci eu tincidunt lacinia,
             elit quam ultrices ipsum
           </p>
-          <p className="text-[1.3rem] max-md:text-[18px] text-gray-600 mb-2.5">
+          <p className="text-[18px] max-md:text-[18px] text-gray-600 mb-2.5">
             <span className="text-[1.2rem] font-black text-black">2007-</span>{" "}
             Phasellus porttitor nisi eget accumsan. Pelle ntesque a arcu
             efficitur ante mattis dictum et ac purus. Nunc interdum, orci eu
             tincidunt lacinia, elit quam ultrices ipsum
           </p>
-          <p className="text-[1.3rem] max-md:text-[18px] text-gray-600 mb-2.5">
+          <p className="text-[18px] max-md:text-[18px] text-gray-600 mb-2.5">
             <span className="text-[1.2rem] font-black text-black">2010-</span>{" "}
             Nunc interdum, orci eu tincidunt lacinia, elit quam ultrices ipsum,
             quis ultricies ipsum ante a lorem. Maecenas nunc mauris, finibus in
             gra vida sed, blandit nec elit. Pellentesque obortis tempus
             tincidunt. Nullam finib
           </p>
-          <p className="text-[1.3rem] max-md:text-[18px] text-gray-600 mb-2.5">
+          <p className="text-[18px] max-md:text-[18px] text-gray-600 mb-2.5">
             <span>2012-</span> Qquam ultrices ipsum, quis ultricies ipsum ante a
             lorem. Maecenas nunc mauris, finibus in gravida sed, blandit nec
             elit. Pellentesque lobortis tempus tincidunt.

@@ -35,15 +35,18 @@ const Aboutus = ({ image, text, paragraph }) => {
           data-aos-easing="ease-in-sine"
         >
           <h1 className="font-bold text-2xl capitalize mt-5">
-            Welcome to our company wedsite
+            Welcome to [Your Company Name] – Where Cleanliness Meets Care
           </h1>
           <p className="max-md:text-sm mt-5 text-xl">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent
-            vestum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus
-            porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et
-            magnis dis parturient montes, nascetur ridiculus mus. Nulla dui.
-            Fusce feugiat malesuada odio. Lorem, ipsum dolor sit amet
-            consectetur adipisicing elit. Voluptates, totam.
+            We’re so glad you’re here! At [Your Company Name], we specialize in
+            providing reliable, affordable, and top-quality cleaning services
+            for homes and businesses. Whether you need a one-time deep clean or
+            regular maintenance, our dedicated team is here to make your space
+            shine—so you can relax and enjoy the things that matter most.
+          </p>
+          <p className="max-md:text-sm mt-5 text-xl">
+            Let us do the dirty work while you enjoy a fresher, healthier
+            environment. Clean spaces. Happy faces.
           </p>
         </div>
 
@@ -52,28 +55,71 @@ const Aboutus = ({ image, text, paragraph }) => {
           data-aos-easing="ease-in-back"
           data-aos-delay="300"
           data-aos-offset="0"
-          className="flex max-md:grid max-md:gap-10  mt-10"
+          className="flex items-center gap-10 max-md:grid max-md:gap-10  mt-10"
         >
-          <div className="flex gap-7">
+          <div className=" bg-white border border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
             <img
-              className="w-[200px] max-md:w-[150px] h-[150px] max-md:h-[140px] "
+              className="w-full max-md:w-[150px] h-[400px] max-md:h-[140px] "
               src={Images}
               alt="pic"
             />
 
-            <div className="pl-4 pt-5 max-md:p-0">
-              <h2 className="font-bold text-[1.5rem] max-md:text-[17px]">
-                Praesent vestum molestie
+            <div className="p-5 pl-4 pt-5 max-md:p-0">
+              <h2 className="font-bold text-[18px] max-md:text-[17px]">
+                About Our CEO – Akomolafe Temitope Joseph At the core of
+                Cleaning CO is our founder and CEO, Akomolafe Temitope Joseph,
+                whose vision and leadership have helped build a company known
+                for quality, consistency, and care.
               </h2>
-              <p className="text-[1rem] max-md:text-sm text-gray-600 text-strat">
-                Lorem ipsum dolor sit auer adipiscing elit. Praesent vestibulum
-                me lacus. Aenean nonummy hendrerit mauris. Phases porta. Fusce
-                suscipit varius mi sociis natoque.
+              <p className=" mt-5 text-[1rem] max-md:text-sm text-gray-600 text-strat">
+                Driven by a passion for service and a strong commitment to
+                customer satisfaction, Mr. Akomolafe started Cleaning CO to meet
+                the growing demand for professional, affordable, and trustworthy
+                cleaning solutions. With a hands-on approach, he has created a
+                team of well-trained professionals dedicated to exceeding client
+                expectations.
+              </p>
+              <p className="text-[1rem] mt-3 max-md:text-sm text-gray-600 text-strat">
+                Under his guidance, Cleaning CO continues to grow while
+                maintaining a personal touch in every job we do. His goal is
+                simple: to make every home and workplace cleaner, healthier, and
+                happier.
               </p>
             </div>
           </div>
+          <div className="pl-4 pt-5 max-md:p-0 max-w-xl p-6 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
+            <h2 className="font-bold text-[18px] max-md:text-[17px]">
+              Message from Our CEO
+            </h2>
+            <p className="mt-5 text-[1rem] max-md:text-sm text-gray-600 text-strat">
+              Hello and welcome! I'm Akomolafe Temitope Joseph, the proud CEO
+              and founder of Cleaning CO. I started this company with one simple
+              mission: to provide high-quality, affordable, and reliable
+              cleaning services to homes and businesses across our community.
+            </p>
+            <p className="text-[1rem] mt-3 max-md:text-sm text-gray-600 text-strat">
+              From the beginning, I believed that cleaning goes beyond just
+              making a space look good—it’s about creating a healthy, peaceful,
+              and organized environment for people to thrive. That’s why at
+              Cleaning CO, we treat every space like it’s our own.
+            </p>
+            <p className="text-[1rem] mt-3 max-md:text-sm text-gray-600 text-strat">
+              Our team is built on trust, excellence, and attention to detail,
+              and I’ve made it a personal goal to ensure that every customer
+              feels valued and satisfied with our service.
+            </p>
+            <p className="text-[1rem] mt-3 max-md:text-sm text-gray-600 text-strat">
+              As we continue to grow, I remain committed to delivering the same
+              level of care and dedication that helped us earn the trust of our
+              clients.
+            </p>
+            <p className="text-[1rem] mt-3 max-md:text-sm text-gray-600 text-strat">
+              Thank you for choosing Cleaning CO. We’re here to make your space
+              shine every time. <br /> <span>Warm regards</span>,
+            </p>
+          </div>
 
-          <div className="flex gap-7">
+          {/* <div className="flex gap-7 flex-col items-center bg-white border border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
             <img className="w-[200px] h-[150px]" src={Images2} alt="pic" />
             <div className="pl-4 pt-5  max-md:p-0">
               <h2 className="font-bold text-[1.5rem] max-md:text-[17px]">
@@ -85,7 +131,7 @@ const Aboutus = ({ image, text, paragraph }) => {
                 suscipit varius mi sociis natoque.
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
 
         {/* <div className="flex justify-center gap-2 bg-purple-300 w-[1000px] h-[400px]">

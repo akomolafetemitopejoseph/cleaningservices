@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import image from "../assets/background2.jpg";
+import "aos/dist/aos.css";
+import AOS from "aos";
 
 const CustomerCare = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
       <div>
@@ -9,7 +14,11 @@ const CustomerCare = () => {
           <h1 className="text-3xl max-md:text-2xl font-extrabold uppercase mb-5 max-md:mt-10">
             customer care
           </h1>
-          <div className="flex items-center gap-10 max-md:grid max-md:gap-5 bg-white border border-gray-200 rounded-lg shadow-sm py-5 max-md:px-5 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+          <div
+            className="flex items-center gap-10 max-md:grid max-md:gap-5 bg-white border border-gray-200 rounded-lg shadow-sm py-5 max-md:px-5 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+          >
             <div>
               <img
                 className="w-[600px] h-[350px] max-md:h-[250px]"
@@ -81,8 +90,13 @@ const CustomerCare = () => {
           compromise on quality."
         </p>
 
-        <div className="flex max-md:grid gap-10 justify-evenly ">
-          <div className="border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 p-5 hover:shadow-lg hover:scale-100 transform transition duration-300 ease-in-out">
+        <div className="flex max-md:grid gap-10 justify-evenly">
+          <div
+            className="border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 p-5 hover:shadow-lg hover:scale-100 transform transition duration-300 ease-in-out "
+            data-aos="fade-right"
+            data-aos-offset="100"
+            data-aos-easing="ease-in-sine"
+          >
             <img
               className="w-100 h-60"
               src="https://images.unsplash.com/photo-1642505172378-a6f5e5b15580?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGNsZWFuaW5nJTIwc2VydmljZXxlbnwwfHwwfHx8MA%3D%3D"
@@ -94,7 +108,13 @@ const CustomerCare = () => {
               affordable rates."
             </p>
           </div>
-          <div className="border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 p-5 hover:shadow-lg hover:scale-100 transform transition duration-300 ease-in-out">
+          <div
+            className="border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 p-5 hover:shadow-lg hover:scale-100 transform transition duration-300 ease-in-out"
+            data-aos="fade-left"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="500"
+          >
             <img
               className="w-100 h-60"
               src="https://livedemo00.template-help.com/wt_53151/img/page3_pic2.jpg"
@@ -111,7 +131,10 @@ const CustomerCare = () => {
       <div className="w-[100%] h-[2px] bg-gray-300 mt-15"></div>
       <div className="m-15  max-md:m-5 max-md:mb-5">
         <h1 className="text-2xl font-bold mb-5">Why Choose Us?</h1>
-        <div className="grid grid-cols-3  gap-10 max-md:grid-cols-1">
+        <div
+          className="grid grid-cols-3  gap-10 max-md:grid-cols-1"
+          data-aos="flip-up"
+        >
           <div className="border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 p-5 hover:shadow-lg hover:scale-100 transform transition duration-300 ease-in-out">
             <h1 className="mb-5 text-l font-bold ">
               <strong className="mr-5">1.</strong>

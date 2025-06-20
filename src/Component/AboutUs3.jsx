@@ -17,17 +17,14 @@ const AboutUs3 = () => {
           data-aos="flip-left"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="3000"
-          className=""
+          className="w-[75%]"
         >
           <h1 className="font-bold text-[3rem] max-md:text-2xl capitalize">
             we offer high quality cleaning services
           </h1>
           <p className="mt-5 text-[1.2rem] max-md:text-sm text-gray-600 ">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent
-            vestum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus
-            porta. Fusce suscipit varius mi. Cum sociis natoque penatibus et
-            magnis dis parturient montes, nascetur ridiculus mus. Nulla dui.
-            Fusce feugiat malesuada odio.
+            At Cleaning CO, we take pride in offering high-quality cleaning services tailored to meet the unique needs of every client. Whether it’s a home, office, or commercial space, our trained professionals use top-grade equipment and eco-friendly products to deliver spotless, fresh results. We pay close attention to every detail, ensuring that every corner is cleaned to the highest standard—because your satisfaction and comfort are our top priority.
+
           </p>
           <button className="rounded-md max-md:px-5 px-10 py-5 max-md:py-2 bg-amber-300 font-extrabold text-[2rem] max-md:text-xl text-amber-900 capitalize mt-10 hover:bg-amber-400 cursor-pointer">
             view all videos
