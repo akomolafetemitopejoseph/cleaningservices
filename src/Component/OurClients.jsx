@@ -7,7 +7,7 @@ import image4 from "../assets/logo.png";
 const OurClients = () => {
   return (
     <>
-      <div className="bg-gray-800 border-2 border-amber-600">
+      <div className="bg-gray-800">
         <h1 className="text-center font-extrabold text-[2rem] max-md:text-xl text-white max-md:p-5">
           OUR CLIENTS
         </h1>

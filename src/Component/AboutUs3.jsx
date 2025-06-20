@@ -10,7 +10,7 @@ const AboutUs3 = () => {
     <>
       <div className="w-[100%] h-[2px] bg-gray-300"></div>
       <div
-        className=" m-5 max-md:m-2 p-10 max-md:p-5 flex max-lg:grid gap-5 border-2
+        className=" m-5 max-md:m-2 p-10 max-md:p-5 flex max-lg:grid gap-5
       "
       >
         <div

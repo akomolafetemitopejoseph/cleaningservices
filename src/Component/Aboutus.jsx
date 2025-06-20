@@ -28,7 +28,7 @@ const Aboutus = ({ image, text, paragraph }) => {
   }, []);
   return (
     <>
-      <div className="m-5 max-md:m-2  p-10 max-md:p-5 border-2">
+      <div className="m-5 max-md:m-2  p-10 max-md:p-5">
         <div
           data-aos="fade-right"
           data-aos-offset="300"

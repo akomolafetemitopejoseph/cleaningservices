@@ -47,7 +47,7 @@ const Slides = () => {
   }, [activeSliders]);
 
   return (
-    <div className="reletive flex justify-center border-2">
+    <div className="reletive flex justify-center">
       {imgSliders.map((img, index) => (
         <div
           key={index}
