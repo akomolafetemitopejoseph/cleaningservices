@@ -35,14 +35,15 @@ const Aboutus = ({ image, text, paragraph }) => {
           data-aos-easing="ease-in-sine"
         >
           <h1 className="font-bold text-2xl capitalize mt-5">
-            Welcome to [Your Company Name] – Where Cleanliness Meets Care
+            Welcome to MANICLEAN GLOBAL VENTURE – Where Cleanliness Meets Care
           </h1>
           <p className="max-md:text-sm mt-5 text-xl">
-            We’re so glad you’re here! At [Your Company Name], we specialize in
-            providing reliable, affordable, and top-quality cleaning services
-            for homes and businesses. Whether you need a one-time deep clean or
-            regular maintenance, our dedicated team is here to make your space
-            shine—so you can relax and enjoy the things that matter most.
+            We’re so glad you’re here! At <span className="text-xl font-bold">MANICLEAN GLOBAL VENTURE</span>,
+            we specialize in providing reliable, affordable, and top-quality
+            cleaning services for homes and businesses. Whether you need a
+            one-time deep clean or regular maintenance, our dedicated team is
+            here to make your space shine—so you can relax and enjoy the things
+            that matter most.
           </p>
           <p className="max-md:text-sm mt-5 text-xl">
             Let us do the dirty work while you enjoy a fresher, healthier
@@ -59,41 +60,41 @@ const Aboutus = ({ image, text, paragraph }) => {
         >
           <div className=" bg-white border border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
             <img
-              className="w-full max-md:w-[150px] h-[400px] max-md:h-[140px] "
+              className="w-full h-[400px] max-md:h-[400px] "
               src={Images}
               alt="pic"
             />
 
-            <div className="p-5 pl-4 pt-5 max-md:p-0">
+            <div className="p-5 pl-4 pt-5 max-md:p-3">
               <h2 className="font-bold text-[18px] max-md:text-[17px]">
                 About Our CEO – Akomolafe Temitope Joseph At the core of
-                Cleaning CO is our founder and CEO, Akomolafe Temitope Joseph,
+                MANICLEAN GLOBAL VENTURE is our founder and CEO, Akomolafe Temitope Joseph,
                 whose vision and leadership have helped build a company known
                 for quality, consistency, and care.
               </h2>
               <p className=" mt-5 text-[1rem] max-md:text-sm text-gray-600 text-strat">
                 Driven by a passion for service and a strong commitment to
-                customer satisfaction, Mr. Akomolafe started Cleaning CO to meet
+                customer satisfaction, Mr. Akomolafe started MANICLEAN GLOBAL VENTURE to meet
                 the growing demand for professional, affordable, and trustworthy
                 cleaning solutions. With a hands-on approach, he has created a
                 team of well-trained professionals dedicated to exceeding client
                 expectations.
               </p>
               <p className="text-[1rem] mt-3 max-md:text-sm text-gray-600 text-strat">
-                Under his guidance, Cleaning CO continues to grow while
+                Under his guidance, MANICLEAN GLOBAL VENTURE continues to grow while
                 maintaining a personal touch in every job we do. His goal is
                 simple: to make every home and workplace cleaner, healthier, and
                 happier.
               </p>
             </div>
           </div>
-          <div className="pl-4 pt-5 max-md:p-0 max-w-xl p-6 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
+          <div className="pl-4 pt-5 max-md:p-3 max-w-xl p-6 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
             <h2 className="font-bold text-[18px] max-md:text-[17px]">
               Message from Our CEO
             </h2>
             <p className="mt-5 text-[1rem] max-md:text-sm text-gray-600 text-strat">
               Hello and welcome! I'm Akomolafe Temitope Joseph, the proud CEO
-              and founder of Cleaning CO. I started this company with one simple
+              and founder of MANICLEAN GLOBAL VENTURE. I started this company with one simple
               mission: to provide high-quality, affordable, and reliable
               cleaning services to homes and businesses across our community.
             </p>
@@ -101,7 +102,7 @@ const Aboutus = ({ image, text, paragraph }) => {
               From the beginning, I believed that cleaning goes beyond just
               making a space look good—it’s about creating a healthy, peaceful,
               and organized environment for people to thrive. That’s why at
-              Cleaning CO, we treat every space like it’s our own.
+              MANICLEAN GLOBAL VENTURE, we treat every space like it’s our own.
             </p>
             <p className="text-[1rem] mt-3 max-md:text-sm text-gray-600 text-strat">
               Our team is built on trust, excellence, and attention to detail,
@@ -114,7 +115,7 @@ const Aboutus = ({ image, text, paragraph }) => {
               clients.
             </p>
             <p className="text-[1rem] mt-3 max-md:text-sm text-gray-600 text-strat">
-              Thank you for choosing Cleaning CO. We’re here to make your space
+              Thank you for choosing MANICLEAN GLOBAL VENTURE. We’re here to make your space
               shine every time. <br /> <span>Warm regards</span>,
             </p>
           </div>

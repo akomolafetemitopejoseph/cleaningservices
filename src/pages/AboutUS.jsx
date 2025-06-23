@@ -1,41 +1,40 @@
 import React from "react";
 import myimage from "../assets/background1.jpg";
 import { BsArrowRightCircle } from "react-icons/bs";
+import "aos/dist/aos.css";
 
 const AboutUS = () => {
   return (
     <>
-      <div className="flex gap-10 m-15 max-md:m-5 max-md:grid max-md:gap-2">
+      <div
+        className="flex gap-10 bg-gray-50 p-5 max-md:p-2 m-15 max-md:m-5 max-md:grid max-md:gap-2"
+        data-aos="fade-up"
+        data-aos-duration="3000"
+      >
         <div>
-          <h1 className="text-[2.5rem] max-md:text-xl font-extrabold uppercase mb-2  ">
+          <h1 className="text-[2rem] max-md:text-xl font-extrabold uppercase mb-2  ">
             about us
           </h1>
-          <div className="w-[500px] max-md:w-fit h-[400px] max-md:h-[200px] max-md:mb-10">
+          <div className="w-[500px] max-md:w-fit h-[300px] max-md:h-[200px] max-md:mb-10">
             <img src={myimage} alt="image" />
           </div>
-          <h1 className="text-[1.5rem] max-md:text-xl font-bold capitalize mb-2.5 max-md:mb-5">
-            About Cleaning CO
+          <h1 className="text-[2rem] max-md:text-xl font-bold capitalize mb-2.5 max-md:mb-5">
+            About MANICLEAN GLOBAL VENTURE
           </h1>
-          <p
-            className="text-[18px] max-md:text-[18px] text-gray-600 mb-2.5 data-aos="
-            fade-left
-            data-aos-anchor="#example-anchor"
-            data-aos-offset="500"
-            data-aos-duration="500"
-          >
-            Cleaning CO is a trusted and professional cleaning service company
-            committed to delivering exceptional cleanliness, comfort, and
-            customer care. We specialize in both residential and commercial
-            cleaning, offering flexible plans that fit your schedule and your
-            budget.
+          <p className="text-[18px] max-md:text-[18px] text-gray-600 mb-2.5 data-aos=">
+            MANICLEAN GLOBAL VENTURE is a trusted and professional cleaning
+            service company committed to delivering exceptional cleanliness,
+            comfort, and customer care. We specialize in both residential and
+            commercial cleaning, offering flexible plans that fit your schedule
+            and your budget.
           </p>
 
           <p className="text-[18px] max-md:text-[18px] text-gray-600 mb-2.5">
-            At Cleaning CO, we understand that a clean space is essential for
-            healthy living and productive working. That’s why we combine modern
-            cleaning techniques, eco-friendly products, and a passionate team of
-            professionals to give every space the sparkling attention it
-            deserves
+            At MANICLEAN GLOBAL VENTURE, we understand that a clean space is
+            essential for healthy living and productive working. That’s why we
+            combine modern cleaning techniques, eco-friendly products, and a
+            passionate team of professionals to give every space the sparkling
+            attention it deserves
           </p>
           <p className="text-[18px] max-md:text-[18px] text-gray-600 mb-2.5">
             Our services include daily and deep cleaning, office cleaning,
@@ -45,12 +44,13 @@ const AboutUS = () => {
           </p>
           <p className="text-[18px] max-md:text-[18px] text-gray-600 mb-2.5">
             Whether you're looking for a one-time service or a long-term
-            cleaning partner, Cleaning CO is here to make your space shine.
+            cleaning partner, MANICLEAN GLOBAL VENTURE is here to make your
+            space shine.
           </p>
         </div>
 
         <div>
-          <h1 className="text-[18px] max-md:text-xl font-extrabold uppercase mb-2.5 max-md:mt-10">
+          <h1 className="text-[2rem] max-md:text-xl font-extrabold uppercase mb-2.5 max-md:mt-10">
             our history
           </h1>
           <p className="text-[18px] max-md:text-[18px] text-gray-600 mb-2.5">
@@ -86,50 +86,64 @@ const AboutUS = () => {
           </p>
         </div>
         <div>
-          <h1 className="text-[2.5rem] max-md:text-xl font-extrabold uppercase mb-2.5 max-md:mt-10">
+          <h1 className="text-[2rem] max-md:text-xl font-extrabold uppercase mb-2.5 max-md:mt-10">
             opportunities
           </h1>
-          <h1 className="text-[1.5rem] max-md:text-xl font-bold capitalize  mb-2.5">
-            Aenean hendrerit diam quis metus vive rra, at pulvinar enim porta
+          <h1 className="text-[18px] max-md:text-xl font-bold capitalize  mb-2.5">
+            At MANICLEAN GLOBAL VENTURE, we believe the cleaning industry offers
+            endless possibilities to serve, grow, and make a lasting impact. As
+            health, safety, and cleanliness have become priorities in homes,
+            offices, and public spaces, our company is perfectly positioned to
+            meet these needs with excellence.
           </h1>
-          <p className="text-[1.3rem] max-md:text-[18px] text-gray-600 mb-2.5">
-            Phasellus porttitor nisi eget accumsan. Pellentesque a arcu
-            efficitur ante mattis dictum et ac purus. Nunc inte rdum, orci eu
-            tincidunt lacinia, elit quam ultrices ipsum, quis ultricies ipsum
-            ante a lorem. Maecenas nunc mau ris, finibus in gravida sed, blandit
+          <p className="text-[18px] max-md:text-[18px] text-gray-600 mb-2.5">
+            We see opportunities not just in providing basic cleaning, but in
+            offering specialized, reliable, and affordable cleaning solutions
+            for individuals, families, and businesses. Our services go beyond
+            simple cleaning — we help create healthy, welcoming, and organized
+            environments that allow people to live and work with peace of mind.
+          </p>
+          <p className="text-[18px] max-md:text-[18px] text-gray-600 mb-2.5">
+            From residential homes to corporate offices, retail spaces to
+            post-construction sites, our cleaning company is expanding to meet
+            the growing demand for:
           </p>
           <div className="text-[1rem] text-gray-900 mb-2.5">
             <p
-              className="flex items-center gap-5 hover:text-gray-500 cursor-pointer
+              className="flex items-center gap-5 hover:text-gray-500
           "
             >
-              <BsArrowRightCircle className="bg-yellow-300 rounded-[100%] text-white text-[1.5rem]" />
-              Etiam cursus leo psum
+              ✅ House and Apartment Cleaning
             </p>
-            <p className="flex items-center gap-5 mt-5 hover:text-gray-500 cursor-pointer">
-              <BsArrowRightCircle className="bg-yellow-300 rounded-[100%] text-white text-[1.5rem]" />
-              Etiam cursus leo psum
+            <p className="flex items-center gap-5 mt-5 hover:text-gray-500">
+              ✅ Office and Commercial Space Cleaning
             </p>
-            <p className="flex items-center gap-5 mt-5 hover:text-gray-500 cursor-pointer">
-              <BsArrowRightCircle className="bg-yellow-300 rounded-[100%] text-white text-[1.5rem]" />
-              Etiam cursus leo psum
+            <p className="flex items-center gap-5 mt-5 hover:text-gray-500">
+              ✅ Deep Cleaning and Disinfection Services
             </p>
-            <p className="flex items-center gap-5 mt-5 hover:text-gray-500 cursor-pointer">
-              <BsArrowRightCircle className="bg-yellow-300 rounded-[100%] text-white text-[1.5rem]" />
-              Etiam cursus leo psum
+            <p className="flex items-center gap-5 mt-5 hover:text-gray-500">
+              ✅ Move-in and Move-out Cleaning
+            </p>
+            <p className="flex items-center gap-5 mt-5 hover:text-gray-500">
+              ✅ Post-Construction and Renovation Cleaning
+            </p>
+            <p className="flex items-center gap-5 mt-5 hover:text-gray-500">
+              ✅ Specialized Cleaning for Events and Short-let Apartments
             </p>
           </div>
-          <p className="text-[1.3rem] max-md:text-[18px] text-gray-600 mb-2.5">
-            Nunc inte rdum, orci eu tincidunt lacinia, elit quam ultr ices
-            ipsum, quis ultricies ipsum ante a lorem. Maecenas nunc mau ris,
-            finibus in gravida sed, blandit nec elit. Pel lentesque lobortis
-            tempus tincidunt. Nullam finibus sem eu pulvinar ultricies.
+          <p className="text-[18px] max-md:text-[16px] text-gray-600 mb-2.5">
+            We also recognize opportunities in eco-friendly cleaning, where we
+            use safe, non-toxic products to protect both our clients and the
+            environment.
           </p>
-          <p className="text-[1.3rem] max-md:text-[18px] text-gray-600 mb-2.5">
-            Donec in velit et diam aliquet mollis. Nulla facilisi. Fus ce
-            viverra, velit at cursus maximus, eros magna pellen tesque nisl,
-            quis accumsan ligula felis vel velit. Praesent eleifend nunc eu nisl
-            maximus interdum eget vel tortor. Nunc in odio pharetra urna pulvina
+          <p className="text-[18px] max-md:text-[16px] text-gray-600 mb-2.5">
+            As we continue to grow, our focus remains on providing high-quality,
+            trustworthy, and customer-focused cleaning services, creating jobs,
+            and contributing to healthier communities.
+          </p>
+          <p className="text-[18px] max-md:text-[16px] text-gray-600 mb-2.5">
+            With dedication and innovation, the opportunities for our cleaning
+            services company are limitless — and we are ready to seize them.
           </p>
         </div>
       </div>

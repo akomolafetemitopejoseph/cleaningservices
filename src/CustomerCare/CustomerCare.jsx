@@ -90,13 +90,13 @@ const CustomerCare = () => {
           compromise on quality."
         </p>
 
-        <div className="flex max-md:grid gap-10 justify-evenly">
-          <div
-            className="border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 p-5 hover:shadow-lg hover:scale-100 transform transition duration-300 ease-in-out "
-            data-aos="fade-right"
-            data-aos-offset="100"
-            data-aos-easing="ease-in-sine"
-          >
+        <div
+          className="flex max-md:grid gap-10 justify-evenly"
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1500"
+        >
+          <div className="border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 p-5 hover:shadow-lg hover:scale-100 transform transition duration-300 ease-in-out ">
             <img
               className="w-100 h-60"
               src="https://images.unsplash.com/photo-1642505172378-a6f5e5b15580?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGNsZWFuaW5nJTIwc2VydmljZXxlbnwwfHwwfHx8MA%3D%3D"
@@ -108,13 +108,7 @@ const CustomerCare = () => {
               affordable rates."
             </p>
           </div>
-          <div
-            className="border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 p-5 hover:shadow-lg hover:scale-100 transform transition duration-300 ease-in-out"
-            data-aos="fade-left"
-            data-aos-anchor="#example-anchor"
-            data-aos-offset="500"
-            data-aos-duration="500"
-          >
+          <div className="border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 p-5 hover:shadow-lg hover:scale-100 transform transition duration-300 ease-in-out">
             <img
               className="w-100 h-60"
               src="https://livedemo00.template-help.com/wt_53151/img/page3_pic2.jpg"
@@ -133,7 +127,8 @@ const CustomerCare = () => {
         <h1 className="text-2xl font-bold mb-5">Why Choose Us?</h1>
         <div
           className="grid grid-cols-3  gap-10 max-md:grid-cols-1"
-          data-aos="flip-up"
+          data-aos="fade-up"
+          data-aos-duration="3000"
         >
           <div className="border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 p-5 hover:shadow-lg hover:scale-100 transform transition duration-300 ease-in-out">
             <h1 className="mb-5 text-l font-bold ">

@@ -42,11 +42,11 @@ const ContactUs = () => {
           </div>
 
           <form action="">
-            <div className="m-5 p-10">
+            <div className="m-5 p-10 bg-amber-50 opacity-75">
               <div className="">
                 <label htmlFor="for-label"></label>
                 <input
-                  className="border-2 w-[500px] max-md:w-[260px] p-3 font-extrabold text-black"
+                  className="border-2 w-[100%] max-md:w-[300px] p-3 font-extrabold text-black"
                   type="text"
                   placeholder="Name"
                 />
@@ -55,7 +55,7 @@ const ContactUs = () => {
               <div>
                 <label htmlFor="for-email"></label>
                 <input
-                  className="border-2 w-[500px] max-md:w-[100%] p-3 mt-5 font-extrabold text-black"
+                  className="border-2 w-[100%] max-md:w-[300px] p-3 mt-5 font-extrabold text-black"
                   type="email"
                   placeholder="Email"
                 />
@@ -63,7 +63,7 @@ const ContactUs = () => {
 
               <div>
                 <textarea
-                  className="border-2 w-full max-md:w-[260px] space-y-4 p-2 mt-5 font-extrabold text-black"
+                  className="border-2 w-[100%] max-md:w-[300px] space-y-4 p-2 mt-5 font-extrabold text-black"
                   name="message"
                   id="message"
                 >
@@ -72,7 +72,7 @@ const ContactUs = () => {
               </div>
 
               <div>
-                <button className="border-2 w-[500px] max-md:w-[250px] p-3 max-md:p-2 mt-5 bg-amber-300 font-extrabold text-[2rem] opacity-60 max-md:text-xl uppercase hover:bg-black hover:text-white cursor-pointer">
+                <button className="border-2 w-[100%] max-md:w-[300px] p-3 max-md:p-2 mt-5 bg-amber-300 font-extrabold text-[2rem] opacity-60 max-md:text-xl uppercase hover:bg-black hover:text-white cursor-pointer">
                   submit
                 </button>
               </div>
