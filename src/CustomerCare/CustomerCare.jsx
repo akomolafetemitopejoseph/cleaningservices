@@ -10,7 +10,9 @@ const CustomerCare = () => {
   return (
     <>
       <div>
+        <div className="mt-10 mx-15 max-md:mx-5 w-30 max-md:w-15 h-3 bg-gray-500 "></div>
         <div className="m-15 max-md:m-5">
+          
           <h1 className="text-3xl max-md:text-2xl font-extrabold uppercase mb-5 max-md:mt-10">
             customer care
           </h1>
@@ -76,12 +78,13 @@ const CustomerCare = () => {
         </div>
       </div>
       <div className="w-[100%] h-[2px] bg-gray-300"></div>
+      <div className="mt-10 mx-15 max-md:mx-5 w-30 max-md:w-15 h-3 bg-gray-500 "></div>
       <div className="m-15  max-md:m-5 max-md:mb-5 ">
         <h1 className="text-lg max-md:text-2xl font-bold mb-5">
           Get high quality cleaning services at affordable prices
         </h1>
         <p className="text-[1.2rem] max-md:text-[18px] text-gray-700 mb-5">
-          "At [Your Company Name], we provide high-quality daily cleaning
+          "At MANICLEAN GLOBAL VENTURE, we provide high-quality daily cleaning
           services at affordable prices to meet the needs of both residential
           and commercial spaces. Our dedicated team of professionals ensures
           your environment remains spotless, fresh, and hygienic every day. With
@@ -123,6 +126,7 @@ const CustomerCare = () => {
         </div>
       </div>
       <div className="w-[100%] h-[2px] bg-gray-300 mt-15"></div>
+      <div className="mt-10 mx-15 max-md:mx-5 w-30 max-md:w-15 h-3 bg-gray-500 "></div>
       <div className="m-15  max-md:m-5 max-md:mb-5">
         <h1 className="text-2xl font-bold mb-5">Why Choose Us?</h1>
         <div

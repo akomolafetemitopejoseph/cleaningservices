@@ -82,6 +82,7 @@ const Slides = () => {
 
       <div className="absolute top-[50%] center-[50%]">
         <div className="flex flex-col text-center">
+          <div className="mx-auto w-100 max-md:w-50 h-2 max-md:mx-12 bg-gray-500 opacity-50"></div>
           <h1 className="max-md:text-2xl max-md:mb-5 uppercase text-[3rem] font-extrabold text-black">
             cleaning co
           </h1>

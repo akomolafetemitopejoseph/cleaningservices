@@ -14,6 +14,7 @@ const Homepage = () => {
     <div>
       {/* <NavBar /> */}
       {/* <Slides /> */}
+      
       <Aboutus />
       <div
         data-aos="fade-up"

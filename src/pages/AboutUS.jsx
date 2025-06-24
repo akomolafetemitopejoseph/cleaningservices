@@ -6,11 +6,13 @@ import "aos/dist/aos.css";
 const AboutUS = () => {
   return (
     <>
+    <div className="mt-10 mx-15 max-md:mx-5 w-30 max-md:w-15 h-3 bg-gray-500 "></div>
       <div
-        className="flex gap-10 bg-gray-50 p-5 max-md:p-2 m-15 max-md:m-5 max-md:grid max-md:gap-2"
+        className="grid justify-center  gap-10 bg-gray-50 p-5 max-md:p-2 m-15 max-md:m-5 max-md:grid max-md:gap-2"
         data-aos="fade-up"
         data-aos-duration="3000"
       >
+        
         <div>
           <h1 className="text-[2rem] max-md:text-xl font-extrabold uppercase mb-2  ">
             about us

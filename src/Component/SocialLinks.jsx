@@ -38,7 +38,7 @@ const SocialLinks = () => {
           </a>
         </div>
         <div>
-          <h1 className="text-xl max-md:text-[12px] text-white font-bold pb-5 text-center">CLEANING CO. © 2025 Privacy policy</h1>
+          <h1 className="text-xl max-md:text-[12px] text-white font-bold pb-5 text-center">MANICLEAN GLOBAL VENTURE. © 2025 Privacy policy</h1>
         </div>
       </div>
     </div>

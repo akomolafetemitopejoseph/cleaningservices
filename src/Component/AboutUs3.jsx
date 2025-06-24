@@ -9,6 +9,7 @@ const AboutUs3 = () => {
   return (
     <>
       <div className="w-[100%] h-[2px] bg-gray-300"></div>
+      <div className="w-30 max-md:w-20 h-2 bg-gray-500 opacity-50 m-10"></div>
       <div
         className=" m-5 max-md:m-2 p-10 max-md:p-5 flex max-lg:grid gap-5
       "

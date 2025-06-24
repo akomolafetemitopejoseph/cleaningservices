@@ -9,7 +9,8 @@ const AboutUs2 = ({ image, text, paragraph }) => {
   return (
     <div>
       <div>
-        <div className=" max-md:m-2  max-md:w-full bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
+        
+        <div className="max-md:m-2  max-md:w-full bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
           <img
             className="w-[full] h-[200px] max-md:h-[400px]"
             src={image}

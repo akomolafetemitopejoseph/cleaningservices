@@ -3,6 +3,7 @@ import { FaEnvelope } from "react-icons/fa";
 import { MdOutlinePhoneIphone } from "react-icons/md";
 import { MdLocationPin } from "react-icons/md";
 import image5 from "../assets/anotherbg.jpg";
+import { Link } from "react-router-dom";
 
 const ContactUs = () => {
   return (

@@ -4,6 +4,7 @@ import { BsArrowRightCircle } from "react-icons/bs";
 const Services = () => {
   return (
     <>
+      <div className="mt-10 mx-15 max-md:mx-5 w-30 max-md:w-15 h-3 bg-gray-500 "></div>
       <div className="m-15 max-md:m-5">
         <h1 className="text-4xl font-bold capitalize mb-8 max-md:mt-10">
           our main services
@@ -81,6 +82,7 @@ const Services = () => {
         </div>
       </div>
       <div className="w-[100%] h-[2px] bg-gray-300"></div>
+      <div className="mt-10 mx-15 max-md:mx-5 w-30 max-md:w-15 h-3 bg-gray-500 "></div>
       <div className="m-15 max-md:m-5">
         <div>
           <h1 className="text-4xl max-md:text-2xl font-bold capitalize mb-8 max-md:mt-10">
@@ -209,12 +211,13 @@ const Services = () => {
         </div>
       </div>
       <div className="w-[100%] h-[2px] bg-gray-300"></div>
+      <div className="mt-10 mx-15 max-md:mx-5 w-30 max-md:w-15 h-3 bg-gray-500 "></div>
       <div className="m-15 max-md:m-5">
         <div className="mb-5">
           <h1 className="text-4xl max-md:text-2xl font-bold capitalize mb-8">
             Services list
           </h1>
-          <h1 className="text-xl max-md:text-[18px] font-bold mb-5">
+          <h1 className="text-l max-md:text-[18px] text-gray-700 font-bold mb-5">
             We proudly offer a full range of cleaning solutions tailored to meet
             the needs of both residential and commercial clients. Our services
             include: Residential Cleaning: Regular or one-time cleaning to keep

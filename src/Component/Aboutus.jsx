@@ -29,6 +29,7 @@ const Aboutus = ({ image, text, paragraph }) => {
   return (
     <>
       <div className="m-5 max-md:m-2  p-10 max-md:p-5">
+        <div className="w-30 max-md:w-20 h-2 bg-gray-500 opacity-50"></div>
         <div
           data-aos="fade-right"
           data-aos-offset="300"
@@ -38,7 +39,8 @@ const Aboutus = ({ image, text, paragraph }) => {
             Welcome to MANICLEAN GLOBAL VENTURE – Where Cleanliness Meets Care
           </h1>
           <p className="max-md:text-sm mt-5 text-xl">
-            We’re so glad you’re here! At <span className="text-xl font-bold">MANICLEAN GLOBAL VENTURE</span>,
+            We’re so glad you’re here! At{" "}
+            <span className="text-xl font-bold">MANICLEAN GLOBAL VENTURE</span>,
             we specialize in providing reliable, affordable, and top-quality
             cleaning services for homes and businesses. Whether you need a
             one-time deep clean or regular maintenance, our dedicated team is
@@ -68,23 +70,23 @@ const Aboutus = ({ image, text, paragraph }) => {
             <div className="p-5 pl-4 pt-5 max-md:p-3">
               <h2 className="font-bold text-[18px] max-md:text-[17px]">
                 About Our CEO – Akomolafe Temitope Joseph At the core of
-                MANICLEAN GLOBAL VENTURE is our founder and CEO, Akomolafe Temitope Joseph,
-                whose vision and leadership have helped build a company known
-                for quality, consistency, and care.
+                MANICLEAN GLOBAL VENTURE is our founder and CEO, Akomolafe
+                Temitope Joseph, whose vision and leadership have helped build a
+                company known for quality, consistency, and care.
               </h2>
               <p className=" mt-5 text-[1rem] max-md:text-sm text-gray-600 text-strat">
                 Driven by a passion for service and a strong commitment to
-                customer satisfaction, Mr. Akomolafe started MANICLEAN GLOBAL VENTURE to meet
-                the growing demand for professional, affordable, and trustworthy
-                cleaning solutions. With a hands-on approach, he has created a
-                team of well-trained professionals dedicated to exceeding client
-                expectations.
+                customer satisfaction, Mr. Akomolafe started MANICLEAN GLOBAL
+                VENTURE to meet the growing demand for professional, affordable,
+                and trustworthy cleaning solutions. With a hands-on approach, he
+                has created a team of well-trained professionals dedicated to
+                exceeding client expectations.
               </p>
               <p className="text-[1rem] mt-3 max-md:text-sm text-gray-600 text-strat">
-                Under his guidance, MANICLEAN GLOBAL VENTURE continues to grow while
-                maintaining a personal touch in every job we do. His goal is
-                simple: to make every home and workplace cleaner, healthier, and
-                happier.
+                Under his guidance, MANICLEAN GLOBAL VENTURE continues to grow
+                while maintaining a personal touch in every job we do. His goal
+                is simple: to make every home and workplace cleaner, healthier,
+                and happier.
               </p>
             </div>
           </div>
@@ -94,9 +96,10 @@ const Aboutus = ({ image, text, paragraph }) => {
             </h2>
             <p className="mt-5 text-[1rem] max-md:text-sm text-gray-600 text-strat">
               Hello and welcome! I'm Akomolafe Temitope Joseph, the proud CEO
-              and founder of MANICLEAN GLOBAL VENTURE. I started this company with one simple
-              mission: to provide high-quality, affordable, and reliable
-              cleaning services to homes and businesses across our community.
+              and founder of MANICLEAN GLOBAL VENTURE. I started this company
+              with one simple mission: to provide high-quality, affordable, and
+              reliable cleaning services to homes and businesses across our
+              community.
             </p>
             <p className="text-[1rem] mt-3 max-md:text-sm text-gray-600 text-strat">
               From the beginning, I believed that cleaning goes beyond just
@@ -115,8 +118,9 @@ const Aboutus = ({ image, text, paragraph }) => {
               clients.
             </p>
             <p className="text-[1rem] mt-3 max-md:text-sm text-gray-600 text-strat">
-              Thank you for choosing MANICLEAN GLOBAL VENTURE. We’re here to make your space
-              shine every time. <br /> <span>Warm regards</span>,
+              Thank you for choosing MANICLEAN GLOBAL VENTURE. We’re here to
+              make your space shine every time. <br /> <span>Warm regards</span>
+              ,
             </p>
           </div>
 
