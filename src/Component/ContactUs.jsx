@@ -9,8 +9,8 @@ const ContactUs = () => {
   return (
     <div>
       <div className="bg-[url('./assets/anotherbg.jpg')] bg-cover bg-center">
-        <div className="flex max-md:grid">
-          <div className="m-5 max-md:m-2 p-10 max-md:p-5">
+        <div className="flex place-items-center justify-center max-md:grid">
+          <div className="max-md:m-2 p-10 max-md:p-5">
             <h1 className="text-[2.5rem] max-md:text-2xl text-black max-md:mt-10 max-md:mb-20 font-extrabold uppercase">
               contact us
             </h1>
@@ -43,7 +43,7 @@ const ContactUs = () => {
           </div>
 
           <form action="">
-            <div className="m-5 p-10 bg-amber-50 opacity-75">
+            <div className=" m-5 p-10 bg-amber-50 opacity-75">
               <div className="">
                 <label htmlFor="for-label"></label>
                 <input

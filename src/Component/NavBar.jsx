@@ -17,7 +17,7 @@ const NavBar = () => {
 
   return (
     <>
-      <nav className="flex items-center justify-between p-5 max-md:p-2 bg-yellow-50">
+      <nav className="flex fixed top-0 right-0 left-0 z-50 items-center justify-between p-5 max-md:p-2 bg-yellow-50">
         <div className="flex">
           {/* <h1 className="font-extrabold text-2xl">LOGO </h1> */}
           <img
@@ -58,7 +58,7 @@ const NavBar = () => {
         <div className="lg:hidden text-2xl z-10">
           {menue ? (
             <RxCross1
-              className="lex lg:hidden animate-bounce"
+              className="flex lg:hidden animate-bounce"
               onClick={crossBar}
             />
           ) : (
